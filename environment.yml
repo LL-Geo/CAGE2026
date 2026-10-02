@@ -1,0 +1,32 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - harmonica
+  - verde=1.8.0
+  - ensaio
+  - boule
+  - simpeg
+  - pyproj=3.4.1
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas=1.5.3
+  - partd
+  - bokeh
+  - ipympl
+  - cmcrameri
+  - netCDF4
+  - ipykernel
+  - rioxarray
+singleuser:
+  memory:
+    guarantee: 1G
+    limit: 4G
+  cpu:
+    guarantee: 1
+    limit: 2
+
